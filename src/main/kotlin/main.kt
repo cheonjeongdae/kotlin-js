@@ -11,6 +11,7 @@ data class User(val avatar_url: String, val login: String, val html_url: String,
 
 // 시작시 기본 로딩
 fun main(args: Array<String>) {
+    println("github 로 부터 사용자를 가져 옵니다.")
     getListUser()
 }
 
